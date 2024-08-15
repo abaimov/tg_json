@@ -2,12 +2,12 @@ require("dotenv").config();
 const TelegramBot = require("node-telegram-bot-api");
 const fs = require("fs");
 
-const registrationUrl = process.env.REGISTRATION_AND_LOGIN;
-const premiumChanel = process.env.PREMIUM_CHANEL;
-const token = process.env.TOKEN;
-const fileName = process.env.FILE;
-const countFileName = process.env.FILE_COUNT;
-const IMAGEPATH = process.env.IMGPATH;
+const registrationUrl = "https://1win-global-pro.com/official";
+const premiumChanel = "https://t.me/+oBTOK-9nhu5iODM6";
+const token = "7130952585:AAELSFJ90GUIYMV6j5PFFCSWNe_w49cu6n0";
+const fileName = "user_data.json";
+const countFileName = "count.json";
+const IMAGEPATH = "https://drive.google.com/u/0/drive-viewer/AKGpihZhfjXvN6O9ZdoIzOM-ZkLfMNCZx1h0yiCuYyTKDnK41iGpMlmbOXBTRwAYHnXiVt6SkkEqL5VD4y2NRQSTyrabkM_xCXZSe6Y=s1600-rw-v1";
 
 const CALLBACK_DATA = {
     BOT_FEATURES: "bot_features",
